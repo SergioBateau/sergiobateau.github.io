@@ -1,0 +1,28 @@
+.breadcrumbs {
+	margin-left: 10px;
+}
+
+.breabcrumbs__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+.breadcrumbs__item {
+	font-size: 14px;
+	font-style: italic;
+}
+
+.breadcrumbs__item + .breadcrumbs__item::before {
+	content: '/';
+}
+
+.breadcrumbs__item-link {
+	text-decoration: none;
+	color: #4b73b5;
+}
+
+.breadcrumbs__item-link:hover {
+	text-decoration: underline;
+}

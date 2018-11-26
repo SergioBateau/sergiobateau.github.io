@@ -1,0 +1,25 @@
+.about {
+	width: 50%;
+	font-size: 14px;
+	color: #fff;
+	margin: 20px 20px;
+	display: flex;
+	flex: 1;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.about__text {
+	user-select: none;
+	width: 235px;
+	margin: 0;
+}
+
+.loftschool {
+	color: #fff;
+}
+
+.autor {
+	font-weight: bold;
+}
+
