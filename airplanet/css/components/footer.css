@@ -45,10 +45,43 @@
     font-size: 14px;
     margin-bottom: 10px;
 }
-.social__link {
+.socials__item {
+    display: inline-block;
+    margin-right: 10px;
+}
+.socials__link {
     display: block;
     width: 20px;
     height: 20px;
-    background: url('../../img/icon/css_sprites.png') 0 0 no-repeat;
-
+    background: url('../../img/icon/css_sprites.png') center center no-repeat;
+}
+.socials__link.socials__link_vk {
+    background-position-x: -10px;
+}
+.socials__link.socials__link_fb {
+    background-position-x: -90px;
+}
+.socials__link.socials__link_gp {
+    background-position-x: -170px;
+}
+.socials__link.socials__link_tw {
+    background-position-x: -250px;
+}
+.socials__link.socials__link_mail {
+    background-position-x: -330px;
+}
+.socials__link_vk:hover {
+    background-position-x: -50px;
+}
+.socials__link_fb:hover {
+    background-position-x: -130px;
+}
+.socials__link_gp:hover {
+    background-position-x: -210px;
+}
+.socials__link_tw:hover {
+    background-position-x: -290px;
+}
+.socials__link_mail:hover {
+    background-position-x: -370px;
 }

@@ -6,5 +6,6 @@
 /* настройки components */
 @import "components/header.css";
 @import "components/footer.css";
+@import "components/sidebar.css";
 
 /* Страницы */
