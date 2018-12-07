@@ -1,0 +1,27 @@
+.header {
+    background: #4b73b5;
+    padding: 20px 0;
+}
+.header__left,
+.header__right {
+    float: left;
+    width: 50%;
+}
+.header__right {
+    text-align: right;
+}
+.contacts {
+    display: inline-block;
+}
+.contacts__tel-number {
+    font-weight: bold;
+    color: white;
+    font-size: 21px;
+    text-decoration: none;
+  }
+  .schedule__day {
+    display: block;
+    font-weight: bold;
+    color: white;
+    opacity: .7;
+  }

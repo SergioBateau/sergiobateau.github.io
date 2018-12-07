@@ -33,3 +33,20 @@ h1, h2, h3, h4, h5, h6 {
 * {
     box-sizing: border-box;
 }
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    min-height: 1100px;
+}
+
+.container {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+.wrapper::after {
+    content: "";
+    display: block;
+    height: 75px;
+}

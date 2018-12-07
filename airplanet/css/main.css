@@ -4,6 +4,7 @@
 @import "layout/base.css";
 
 /* настройки components */
-
+@import "components/header.css";
+@import "components/footer.css";
 
 /* Страницы */
