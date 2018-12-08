@@ -11,6 +11,7 @@
 	background-position: center center;
 	background-repeat: no-repeat;
 }
+/* Отзывы */
 .rates {
 	padding-bottom: 42px;
 }
@@ -91,3 +92,40 @@
 	font-family: roboto regular;
 	margin-right: 5px;
 }
+/* Новости */
+.news-list {
+	padding-top: 24px;
+}
+.news-item {
+    border-bottom: 2px solid #f5f5f5;
+	padding-top: 28px;
+	padding-bottom: 31px;
+}
+.news-item:last-child {
+    border-bottom: none;
+}
+.news-item__pic {
+    width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	overflow: hidden;
+	float: left;
+	margin-right: 20px;
+}
+.news__date {
+    font-size: 14px;
+	color: #989898;
+	font-weight: lighter;
+	padding-bottom: 6px;  
+}
+.news__name {
+    font-weight: bold;
+	font-size: 18px;
+	
+}
+.news__text {
+    font-size: 18px;
+	
+	line-height: 1.67;
+}
+
