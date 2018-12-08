@@ -1,0 +1,54 @@
+.sidebar {
+    width: 180px;
+    padding-right: 20px;
+    padding-top: 45px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.menu__item {
+    padding-bottom: 30px;
+}
+.menu__link {
+    color: #4b73b5;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+.menu__link:hover {
+    color: black;
+}
+.menu__link:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 20px;
+    background: center center no-repeat;
+}
+.menu__link--airplane:before {
+    background-image: url(../../img/icon/airplane.png)
+}
+.menu__link--airplane:hover:before {
+    background-image: url(../../img/icon/airplane-hover.png)
+}
+.menu__link--star:before {
+    background-image: url(../../img/icon/starfeed.png);
+}
+.menu__link--star:hover:before {
+    background-image: url(../../img/icon/starfeed-hover.png);
+}
+.menu__link--team:before {
+    background-image: url(../../img/icon/team.png);
+} 
+.menu__link--team:hover:before {
+    background-image: url(../../img/icon/team-hover.png);
+}
+.menu__item--active .menu__link--airplane {
+color: #000;
+}
+.menu__item--active .menu__link--airplane:before {
+background-image: url(../../img/icon/airplane-hover.png);
+}
