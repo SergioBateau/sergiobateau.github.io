@@ -1,12 +1,15 @@
 .header {
     background: #4b73b5;
-    padding: 20px 0;
+    padding: 17px 0;
+    
 }
 .header__left,
 .header__right {
     float: left;
     width: 50%;
+    
 }
+
 .header__right {
     text-align: right;
 }
@@ -21,6 +24,7 @@
   }
   .schedule__day {
     display: block;
+    font-size: 14px;
     font-weight: bold;
     color: white;
     opacity: .7;

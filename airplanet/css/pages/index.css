@@ -1,0 +1,93 @@
+.content {
+    overflow: hidden;
+	float: left;
+    width: 880px;
+    padding-top: 13px;
+}
+.page-image {
+    width: 920px;
+	height: 300px;
+	display: block;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.rates {
+	padding-bottom: 42px;
+}
+.title {
+    font-weight: bold;
+	font-size: 49px;
+	color: #221f1f;
+	margin-top: 8px;
+	margin-bottom: 18px;
+}
+
+.rates-item {
+	display: inline-block;
+	width: 250px;
+	border: 1px solid #e8e9ed;
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding-right: 22px;
+	padding-left: 22px;
+}
+.rates-item:first-child {
+	border: none;
+	box-sizing: border-box;
+	margin-right: 20px;
+}
+
+.rates-item:last-child {
+	border: none;
+	box-sizing: border-box;
+	margin-left: 20px;
+}
+.rates-item__link {
+    margin: 0 auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+	display: block;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 32px;
+}
+.rates-description__name {
+    font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 18px;
+	letter-spacing: 3px;
+}
+.rates-description__text,
+.rates-description__list {
+    font-size: 18px;
+	font-weight: lighter;
+}
+
+.rates-description__text {
+    line-height: 1.7;
+	text-align: center;
+}
+.rates-description__list {
+    list-style-type: disc;
+	line-height: 2;
+	margin-bottom: 15px;
+	padding-left: 18px;
+}
+.rates-description__item {
+    padding-left: 10px;
+}
+.rates-description__price{
+    font-weight: bold;
+	font-size: 54px;
+	text-align: center;
+	margin-bottom: 35px;
+	font-family: roboto regular;
+}
+.rates-description__dollar {
+    font-size: 30px;
+	font-family: roboto regular;
+	margin-right: 5px;
+}
