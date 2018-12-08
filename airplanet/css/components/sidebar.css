@@ -46,7 +46,7 @@
 .menu__link--team:hover:before {
     background-image: url(../../img/icon/team-hover.png);
 }
-.menu__item--active .menu__link--airplane {
+.menu__item--active .menu__link {
 color: #000;
 }
 .menu__item--active .menu__link--airplane:before {
