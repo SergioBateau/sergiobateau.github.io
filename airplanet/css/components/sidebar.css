@@ -1,14 +1,14 @@
 .sidebar {
     float: left;
     width: 180px;
-    padding-right: 25px;
+    /* padding-right: 25px; */
     padding-top: 40px;
     display: inline-block;
-    vertical-align: top;
+    /* vertical-align: top; */
 
 }
 .menu__item {
-    padding-bottom: 26px;
+    margin-bottom: 26px;
 }
 .menu__link {
     color: #4b73b5;

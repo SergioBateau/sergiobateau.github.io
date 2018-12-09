@@ -1,8 +1,8 @@
 .content {
-    
+    display: inline-block;
 	float: left;
     width: 880px;
-    padding-top: 13px;
+    margin-top: 13px;
 }
 .page-image {
     width: 920px;
@@ -46,14 +46,24 @@
 }
 .rates-item__link {
     margin: 0 auto;
-   
+	width: 68px;
+	height: 68px;
+	background: #4b73b5;
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-color: #ffffff;
+	position: relative;
 	display: block;
 	text-align: center;
 	margin-top: 40px;
 	margin-bottom: 24px;
+	border-radius: 50%;
+}
+.rates-item__img {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 .rates-description__name {
     font-weight: bold;
@@ -100,19 +110,26 @@
 }
 .news-item {
     border-bottom: 2px solid #f5f5f5;
-	padding-top: 25px;
+	margin-top: 25px;
 	padding-bottom: 28px;
 }
 .news-item:last-child {
     border-bottom: none;
 }
+
 .news-item__pic {
+	display: inline-block;
     width: 160px;
 	height: 160px;
 	border-radius: 50%;
 	overflow: hidden;
 	float: left;
 	margin-right: 20px;
+}
+.news-item__desc {
+	display: inline-block;
+	float: left;
+	width: 700px;
 }
 .news__date {
     font-size: 14px;
