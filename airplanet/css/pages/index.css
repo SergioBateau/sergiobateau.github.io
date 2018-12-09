@@ -1,5 +1,5 @@
 .content {
-    overflow: hidden;
+    
 	float: left;
     width: 880px;
     padding-top: 13px;
@@ -13,13 +13,13 @@
 }
 /* Отзывы */
 .rates {
-	padding-bottom: 42px;
+	padding-bottom: 36px;
 }
 .title {
     font-weight: bold;
 	font-size: 49px;
 	color: #221f1f;
-	margin-top: 8px;
+	
 	margin-bottom: 18px;
 }
 
@@ -35,23 +35,25 @@
 .rates-item:first-child {
 	border: none;
 	box-sizing: border-box;
-	margin-right: 20px;
+	margin-right: 16px;
 }
 
 .rates-item:last-child {
 	border: none;
 	box-sizing: border-box;
-	margin-left: 20px;
+    margin-left: 18px;
+   
 }
 .rates-item__link {
     margin: 0 auto;
+   
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-color: #ffffff;
 	display: block;
 	text-align: center;
 	margin-top: 40px;
-	margin-bottom: 32px;
+	margin-bottom: 24px;
 }
 .rates-description__name {
     font-weight: bold;
@@ -59,12 +61,12 @@
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 18px;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 }
 .rates-description__text,
 .rates-description__list {
     font-size: 18px;
-	font-weight: lighter;
+	
 }
 
 .rates-description__text {
@@ -74,7 +76,7 @@
 .rates-description__list {
     list-style-type: disc;
 	line-height: 2;
-	margin-bottom: 15px;
+	margin-bottom: 8px;
 	padding-left: 18px;
 }
 .rates-description__item {
@@ -94,12 +96,12 @@
 }
 /* Новости */
 .news-list {
-	padding-top: 24px;
+	padding-top: 12px;
 }
 .news-item {
     border-bottom: 2px solid #f5f5f5;
-	padding-top: 28px;
-	padding-bottom: 31px;
+	padding-top: 25px;
+	padding-bottom: 28px;
 }
 .news-item:last-child {
     border-bottom: none;
@@ -126,6 +128,6 @@
 .news__text {
     font-size: 18px;
 	
-	line-height: 1.67;
+	line-height: 1.7;
 }
 
