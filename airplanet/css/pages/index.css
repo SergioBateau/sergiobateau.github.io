@@ -131,18 +131,18 @@
 	float: left;
 	width: 700px;
 }
-.news__date {
+.news-item__date {
     font-size: 14px;
 	color: #989898;
 	font-weight: lighter;
 	padding-bottom: 6px;  
 }
-.news__name {
+.news-item__name {
     font-weight: bold;
 	font-size: 18px;
 	
 }
-.news__text {
+.news-item__text {
     font-size: 18px;
 	
 	line-height: 1.7;
