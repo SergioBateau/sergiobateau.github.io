@@ -53,3 +53,9 @@ color: #000;
 .menu__item--active .menu__link--airplane:before {
 background-image: url(../../img/icon/airplane-hover.png);
 }
+.menu__item--active .menu__link--star:before {
+background-image: url(../../img/icon/starfeed-hover.png);
+}
+.menu__item--active .menu__link--team:before {
+background-image: url(../../img/icon/team-hover.png);
+}

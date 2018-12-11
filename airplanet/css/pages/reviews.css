@@ -1,0 +1,67 @@
+/* Отзывы */
+.reviews-list {
+	padding-top: 12px;
+}
+.reviews-item {
+    border-bottom: 2px solid #f5f5f5;
+	margin-top: 25px;
+    padding-bottom: 28px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.reviews-item:last-child {
+    border-bottom: none;
+}
+
+.reviews-item__pic {
+	
+    width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	
+	
+	margin-right: 20px;
+}
+.reviews-item__desc {
+	
+	width: 700px;
+}
+.reviews-item__date {
+    font-size: 14px;
+	color: #989898;
+	font-weight: lighter;
+	padding-bottom: 6px;  
+}
+.reviews-item__name {
+    font-weight: bold;
+	font-size: 18px;
+	
+}
+.reviews-item__text {
+    font-size: 18px;
+	
+	line-height: 1.7;
+}
+/* Поддержка */
+.support {
+    background: url(../../img/reviews/bc_green.jpg);
+    width: 100%;
+    margin-top: 66px;
+}
+.support__text {
+   font-size: 18px;
+    color: #fff;
+    font-weight: lighter;
+	line-height: 1.8;
+    padding-top: 48px;
+    padding-bottom: 46px;
+}
+.support__site {
+    color: #fff;
+    font-weight: bold;
+}
+.support__phone {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}

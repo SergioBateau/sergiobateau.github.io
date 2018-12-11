@@ -8,6 +8,9 @@
 @import "components/footer.css";
 @import "components/sidebar.css";
 @import "components/pagination.css";
+@import "components/breadcrumbs.css";
 
 /* Страницы */
-@import "pages/index.css"
+@import "pages/index.css";
+@import "pages/reviews.css";
+
