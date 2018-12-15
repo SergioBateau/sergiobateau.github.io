@@ -2,7 +2,7 @@
     height: 75px;
     background: #4b73b5;
     color: #fff;
-    margin-top: -75px;
+    
     min-width: 1100px;
 }
 .footer__col:first-child {
@@ -48,6 +48,7 @@
 .socials__item {
     display: inline-block;
     margin-right: 10px;
+    cursor: pointer;
 }
 .socials__link {
     display: block;

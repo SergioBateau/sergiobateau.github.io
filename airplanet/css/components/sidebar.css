@@ -9,6 +9,7 @@
 }
 .menu__item {
     margin-bottom: 26px;
+    cursor: pointer;
 }
 .menu__link {
     color: #4b73b5;

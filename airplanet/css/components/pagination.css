@@ -8,6 +8,9 @@
 display: inline-block;
 vertical-align: middle;
 }
+.pagination__controls {
+    cursor: pointer;
+}
 .pagination__display {
     font-size: 14px;
     font-weight: lighter;
