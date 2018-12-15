@@ -37,6 +37,7 @@
     border-radius: 50%;
     width: 160px;
     height: 160px;
+    z-index: 5;
     /* opacity: 0.6;
     filter: brightness(70%); */
 }
@@ -52,7 +53,20 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+.team-item__filter {
+    display: block;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    background-color: rgba(75, 115, 181, .6);
+    z-index: 9;
+    cursor: pointer;
+    margin-top: -160px;
+    position: absolute;
+}
+.team-item__filter:hover {
+    opacity: 0;
+}
 .team-item__desc {
     display: flex;
     width: 270px;
@@ -73,3 +87,108 @@
 .team-item__about {
     margin-top: 10px;
 }
+/* Партнеры */
+.partners__list {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-bottom: 34px;
+}
+.partners__item {
+    width: 270px;
+    text-align: center;
+    margin-bottom: 64px;
+    cursor: pointer;
+    position: relative;
+    z-index: 5;
+}
+
+.partners__item:first-child {
+    padding-top: 25px;
+}
+.logo__filter-bmp {
+   
+    background: url(../../img/team/bmp_company-hover.png) center no-repeat;
+    position: absolute;
+    min-height: 70px;
+    margin-top: -56px;
+    width: 270px;
+    opacity: 0;
+    z-index: 10;
+	
+}
+.logo__filter-bmp:hover {
+    opacity: 1;
+}
+.logo__filter-tetra {
+   
+    background: url(../../img/team/tetra_install-hover.png) center no-repeat;
+    position: absolute;
+    min-height: 70px;
+    margin-top: -74px;
+    width: 270px;
+    opacity: 0;
+    z-index: 10;
+	
+}
+.logo__filter-tetra:hover {
+    opacity: 1;
+}
+.logo__filter-sibair {
+   
+    background: url(../../img/team/Sibir-hover.png) center no-repeat;
+    position: absolute;
+    min-height: 70px;
+    margin-top: -74px;
+    width: 270px;
+    opacity: 0;
+    z-index: 10;
+	
+}
+.logo__filter-sibair:hover {
+    opacity: 1;
+}
+.logo__filter-oneair {
+   
+    background: url(../../img/team/One_Air-hover.png) center no-repeat;
+    position: absolute;
+    min-height: 70px;
+    margin-top: -74px;
+    width: 270px;
+    opacity: 0;
+    z-index: 10;
+	
+}
+.logo__filter-oneair:hover {
+    opacity: 1;
+}
+.logo__filter-bingair {
+   
+    background: url(../../img/team/Bing_Air-hover.png) center no-repeat;
+    position: absolute;
+    min-height: 70px;
+    margin-top: -74px;
+    width: 270px;
+    opacity: 0;
+    z-index: 10;
+	
+}
+.logo__filter-bingair:hover {
+    opacity: 1;
+}
+.logo__filter-ural {
+   
+    background: url(../../img/team/Ural-hover.png) center no-repeat;
+    position: absolute;
+    min-height: 70px;
+    margin-top: -74px;
+    width: 270px;
+    opacity: 0;
+    z-index: 10;
+	
+}
+.logo__filter-ural:hover {
+    opacity: 1;
+}
+ 
+
