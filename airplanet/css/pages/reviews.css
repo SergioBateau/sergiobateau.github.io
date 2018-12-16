@@ -213,8 +213,8 @@ input[type="radio"]:checked + .form__trigger-title {
 }
 
 /* Кнопка отправить */
-.form__send-btns {
-    width: 155px;
+.form__send-name {
+    width: 165px;
     height: 47px;
 	background-color: #4b73b5;
 	border: none;
@@ -228,16 +228,16 @@ input[type="radio"]:checked + .form__trigger-title {
 	
 }
 
-.form__send-btns:hover {
+.form__send-name:hover {
 	background-color: #ffffff;
 	outline: none;
 }
 
-.form__send-btns:hover .form__send-name {
+.form__send-name:hover {
 	color: #4b73b5;
 }
 
-.form__send-btns:hover .form__send-icon {
+.form__send-name:hover .form__send-icon {
 	background-image: url(../../img/icon/airplane.png);
 }
 
