@@ -225,7 +225,11 @@ input[type="radio"]:checked + .form__trigger-title {
 	padding-bottom: 10px;
 	padding-left: 20px;
 	cursor: pointer;
-	
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #ffffff;
+    letter-spacing: 1.8px;
 }
 
 .form__send-name:hover {
@@ -241,14 +245,7 @@ input[type="radio"]:checked + .form__trigger-title {
 	background-image: url(../../img/icon/airplane.png);
 }
 
-.form__send-name {
-	font-size: 12px;
-	font-weight: bold;
-	text-transform: uppercase;
-	color: #ffffff;
-    letter-spacing: 1.8px;
-   
-}
+
 
 .form__send-icon {
 	vertical-align: middle;
