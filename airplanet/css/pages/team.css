@@ -112,6 +112,7 @@
     position: absolute;
     min-height: 70px;
     margin-top: -56px;
+    left: -1px;
     width: 270px;
     opacity: 0;
     z-index: 10;
@@ -125,7 +126,8 @@
     background: url(../../img/team/tetra_install-hover.png) center no-repeat;
     position: absolute;
     min-height: 70px;
-    margin-top: -74px;
+    margin-top: -73px;
+    left: -1px;
     width: 270px;
     opacity: 0;
     z-index: 10;
@@ -139,7 +141,8 @@
     background: url(../../img/team/Sibir-hover.png) center no-repeat;
     position: absolute;
     min-height: 70px;
-    margin-top: -74px;
+    margin-top: -73px;
+    left: -1px;
     width: 270px;
     opacity: 0;
     z-index: 10;
@@ -153,7 +156,8 @@
     background: url(../../img/team/One_Air-hover.png) center no-repeat;
     position: absolute;
     min-height: 70px;
-    margin-top: -74px;
+    margin-top: -73px;
+    left: -1px;
     width: 270px;
     opacity: 0;
     z-index: 10;
@@ -167,7 +171,7 @@
     background: url(../../img/team/Bing_Air-hover.png) center no-repeat;
     position: absolute;
     min-height: 70px;
-    margin-top: -74px;
+    margin-top: -73px;
     width: 270px;
     opacity: 0;
     z-index: 10;
@@ -181,7 +185,7 @@
     background: url(../../img/team/Ural-hover.png) center no-repeat;
     position: absolute;
     min-height: 70px;
-    margin-top: -74px;
+    margin-top: -73px;
     width: 270px;
     opacity: 0;
     z-index: 10;

@@ -38,7 +38,8 @@
 	
 }
 .reviews-item__text {
-    font-size: 18px;
+	font-size: 18px;
+	margin-top: 10px;
 	
 	line-height: 1.7;
 }
