@@ -112,7 +112,7 @@
     position: absolute;
     min-height: 70px;
     margin-top: -56px;
-    left: -1px;
+    /* left: -1px; */
     width: 270px;
     opacity: 0;
     z-index: 10;
