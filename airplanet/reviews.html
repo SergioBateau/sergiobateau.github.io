@@ -16,15 +16,15 @@
         <div class="wrapper__content">
             <!-- Шапка -->
             <header class="header clearfix">
-                <div class="container clearfix">
-                    <div class="header__left">
+                <div class="container header__container">
+                    <div class="header__col">
                         <div class="logo">
                             <a href="index.html" class="logo__link">
                                 <img src="./img/logo/logo_header.png" alt="Логотип" class="header__logo">
                             </a>
                         </div>
                     </div>
-                    <div class="header__right">
+                    <div class="header__col header__col-align-right">
                         <div class="contacts">
                             <a href="tel:88000039210" class="contacts__tel-number">8 (800) 00-392-10</a>
                         </div>
@@ -36,7 +36,7 @@
             </header>
 
             <section class="page">
-                <div class="container clearfix">
+                <div class="container page__container">
                     <!-- Боковая панель -->
                     <aside class="sidebar">
                         <nav class="menu">
@@ -62,7 +62,7 @@
 
                     <!-- Содержание страницы -->
                     <main class="main-content">
-                        <div class="container clearfix">
+                        <div class="container container__main-content">
                             <div class="content">
 
                                 <nav class="breadcrumbs">
@@ -79,9 +79,11 @@
                                 <div class="reviews">
                                     <h1 class="title">Отзывы</h1>
                                     <ul class="reviews-list">
-                                        <li class="reviews-item clearfix">
+                                        <li class="reviews-item">
 
-                                            <img src="./img/reviews/photo_girl.jpg" class="reviews-item__pic" alt="девушка">
+                                            <div class="reviews-item__avatar">
+                                                <img src="./img/reviews/photo_girl.jpg" class="reviews-item__pic" alt="девушка">
+                                            </div>
 
                                             <div class="reviews-item__desc">
                                                 <time class="reviews-item__date">12.10.2016</time>
@@ -97,9 +99,11 @@
                                                 </p>
                                             </div>
                                         </li>
-                                        <li class="reviews-item clearfix">
+                                        <li class="reviews-item">
 
-                                            <img src="./img/reviews/old_photo.jpg" class="reviews-item__pic" alt="старик">
+                                            <div class="reviews-item__avatar">
+                                                <img src="./img/reviews/old_photo.jpg" class="reviews-item__pic" alt="старик">
+                                            </div>
 
                                             <div class="reviews-item__desc">
                                                 <time class="reviews-item__date">01.02.2016</time>
@@ -114,9 +118,11 @@
                                             </div>
                                         </li>
                                         </li>
-                                        <li class="reviews-item clearfix">
+                                        <li class="reviews-item">
 
-                                            <img src="./img/reviews/No_avatar.png" class="reviews-item__pic" alt="нет_аватара">
+                                            <div class="reviews-item__avatar">
+                                                <img src="./img/reviews/No_avatar.png" class="reviews-item__pic" alt="нет_аватара">
+                                            </div>
 
                                             <div class="reviews-item__desc">
                                                 <time class="reviews-item__date">22.12.2015</time>
@@ -132,9 +138,11 @@
                                                 </p>
                                             </div>
                                         </li>
-                                        <li class="reviews-item clearfix">
+                                        <li class="reviews-item">
 
-                                            <img src="./img/reviews/oldwoman_photo.jpg" class="reviews-item__pic" alt="старуха">
+                                            <div class="reviews-item__avatar">
+                                                <img src="./img/reviews/oldwoman_photo.jpg" class="reviews-item__pic" alt="старуха">
+                                            </div>
 
                                             <div class="reviews-item__desc">
                                                 <time class="reviews-item__date">14.08.2015</time>
@@ -197,7 +205,7 @@
             </div>
         </div>
 
-        <form action="" >
+        <form action="">
             <div class="container clearfix">
                 <div class="form">
                     <div class="form__inner">
@@ -231,11 +239,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <button type="submit" class="form__send-name">Отправить
                                     <span class="form__send-icon"></span>
                                 </button>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -244,7 +252,7 @@
             </div>
         </form>
         <footer class="footer">
-            <div class="container clearfix">
+            <div class="container footer__container">
                 <div class="footer__col">
                     <div class="footer__about">
                         <div class="footer__about-desc">
@@ -257,9 +265,8 @@
                     </div>
                 </div>
                 <div class="footer__col footer__col_middle">
-                    <a href="index.html" class="logo__link">
-                        <img src="./img/logo/Vector_Smart_Object.png" alt="" class="logo">
-                    </a>
+                    <a href="index.html" class="logo__link"><img src="./img/logo/Vector_Smart_Object.png" alt="Логотип"
+                            class="logo"></a>
                 </div>
                 <div class="footer__col footer__col_right">
                     <div class="socials">

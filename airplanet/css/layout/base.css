@@ -36,17 +36,33 @@ h1, h2, h3, h4, h5, h6 {
 
 .wrapper {
     min-height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     min-width: 1100px;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
-.wrapper__content {
+/* .wrapper__content {
     flex: 1;
-}
-
+} */
 .container {
     width: 1060px;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
+.page__container {
+    display: flex;
+    overflow: hidden;
+}
+.main-content {
+    width: 80%;
+    margin-top: 13px;
+    display: flex;
+}
+.container .container__main-content {
+	max-width: 100%;
+}
+.sidebar {
+    width: 20%;
+    margin-top: 40px;
+}
+
+
