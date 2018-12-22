@@ -1,0 +1,83 @@
+
+.wrapper__intro {
+	min-width: 1100px;
+	height: 100%;
+	background: url(../../img/intro/kzhhnb6xsqi-margo-brodowicz.jpg) no-repeat center center fixed;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	position: relative;
+}
+
+/* .wrapper__intro:before {
+	content: '';
+    display: block;
+    position: absolute;
+    top: 0px; 
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .6);
+} */
+
+.intro__container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+
+.intro__logo {
+	margin-bottom: 36px;
+	text-align: center;
+}
+
+.intro__btn {
+	border: 1px solid #4b73b5;
+	padding: 12px 18px;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+}
+
+.intro__link {
+	text-decoration: none;
+	text-align: center;
+}
+
+.intro__text, .intro__icon {
+	display: inline-block;
+}
+
+.intro__text {
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	color: #4b73b5;
+	vertical-align: middle;
+	text-align: center;
+	margin-right: 3px;
+}
+
+.intro__icon {
+	width: 15px;
+	height: 15px;
+	background-image: url(../../img/icon/airplane.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+
+.intro__btn:hover {
+	background-color: #4b73b5;
+}
+
+.intro__btn:hover .intro__text {
+	color: #ffffff;
+}
+
+.intro__btn:hover .intro__icon {
+	background-image: url(../../img/icon/airplane-whitehover.png);
+}

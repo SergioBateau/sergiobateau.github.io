@@ -11,7 +11,10 @@
 @import "components/breadcrumbs.css";
 
 /* Страницы */
+@import "pages/intro.css";
 @import "pages/index.css";
 @import "pages/reviews.css";
 @import "pages/team.css";
 
+/* анимация */
+@import "animations/bounce.css";
