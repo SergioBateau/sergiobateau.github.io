@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .sidebar {
     width: 25%;
-    margin-top: 40px;
+    margin-top: 23px;
     display: flex;
     flex-direction: column;
 

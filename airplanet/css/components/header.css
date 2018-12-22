@@ -45,13 +45,21 @@
     color: white;
     opacity: .7;
   }
+  .schedule {
+    text-align: end;
+    
+  }
   .schedule__wrapper {
     
     overflow: hidden;
     height: 0;
-    width: 100px;
-    
+    width: 163px;
+    border: none;
+    border-radius: 2px;
     transition: height 0.5s;
+    font-size: 14px;
+    cursor: pointer;
+    
   }
   .schedule__block {
     margin-top: 15px;
@@ -59,6 +67,9 @@
     height: 100%;
     width: 100%;
     background-color: #fff;
+    padding: 15px 15px;
+    text-align: left;
+
   }
   .schedule__block:before {
     content: '';
@@ -72,7 +83,7 @@
     border-width: 0 15px 15px 15px;
   }
   .schedule:hover .schedule__wrapper {
-    height: 100px;
+    height: 80px;
   }
   .schedule__week {
       color: #4b73b5;
