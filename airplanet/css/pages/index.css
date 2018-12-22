@@ -1,187 +1,74 @@
 
-
-.content {
-	display: flex;
-	flex-direction: column;
-}
-
-.picture {
-	display: block;
-	max-width: 100%;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: contain;
-}
-
-/* Тарифы */
-.rates {
-	margin-bottom: 10px;
-}
-
-.title__h3 {
-	font-weight: bold;
-	/* font-size: 49px; */
-	font-size: 18px;
-	color: #221f1f;
-	margin-bottom: 18px;
-	text-align: center;
-}
-
-.rates-list {
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-}
-
-.rates-item {
-	/* flex: 1 0 250px; */
-	/* display: inline-block; */
-	/* width: 250px; */
-	flex: 1;
-	max-width: 100%;
-	border: 1px solid #e8e9ed;
-	border-radius: 5px;
-	box-sizing: border-box;
-	padding-right: 22px;
-	padding-left: 22px;
-	margin-right: 25px;
-}
-
-/* .rates-item:first-child {
-	border: none;
-	box-sizing: border-box;
-	margin-right: 16px;
-}
-
-.rates-item:last-child {
-	border: none;
-	box-sizing: border-box;
-	margin-left: 18px;
-
-} */
-
-.rates-item__link {
-	margin: 0 auto;
-	width: 68px;
-	height: 68px;
-	background: #4b73b5;
-	background-position: center center;
-	background-repeat: no-repeat;
+.wrapper__intro {
+	min-width: 1100px;
+	height: 100%;
+	background: url(../../img/intro/kzhhnb6xsqi-margo-brodowicz.jpg) no-repeat center center fixed;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
 	position: relative;
-	display: block;
-	text-align: center;
-	margin-top: 40px;
-	margin-bottom: 24px;
-	border-radius: 50%;
 }
 
-.rates-item__img {
-	display: block;
+
+
+.intro__container {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
 }
 
-.rates-description__name {
-	font-weight: bold;
-	font-size: 11px;
-	text-align: center;
-	text-transform: uppercase;
-	margin-bottom: 18px;
-	letter-spacing: 2px;
-}
-
-.rates-description__text,
-.rates-description__list {
-	font-size: 18px;
-
-}
-
-.rates-description__text {
-	/* line-height: 1.7; */
+.intro__logo {
+	margin-bottom: 36px;
 	text-align: center;
 }
 
-.rates-description__list {
-	list-style-type: disc;
-	line-height: 2;
-	margin-bottom: 8px;
-	padding-left: 18px;
+.intro__btn {
+	border: 1px solid #4b73b5;
+	padding: 12px 18px;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: all 1s;
+	-webkit-transition: all 1s;
 }
 
-.rates-description__item {
-	padding-left: 10px;
-}
-
-.rates-description__price {
-	font-weight: bold;
-	font-size: 54px;
+.intro__link {
+	text-decoration: none;
 	text-align: center;
-	margin-bottom: 35px;
-	font-family: roboto regular;
 }
 
-.rates-description__dollar {
-	font-size: 30px;
-	font-family: roboto regular;
-	margin-right: 5px;
-}
-
-/* Новости */
-.news-list {
-	display: flex;
-	flex-direction: row;
-	padding-top: 12px;
-}
-
-.news-item {
-	/* border-bottom: 2px solid #f5f5f5; */
-	flex: 1;
-	width: 33.3%;
-	margin-top: 25px;
-	padding-bottom: 28px;
-	display: flex;
-	flex-flow: column;
-}
-
-/* .news-item:last-child {
-	border-bottom: none;
-} */
-.news-item__avatar {
+.intro__text, .intro__icon {
 	display: inline-block;
-	overflow: hidden;
-	max-width: 100%;
-	
-}
-.news-item__pic {
-	display: block;
-	max-width: 100%;
-	max-height: 160px;
-	border-radius: 50%;
-	margin: 0 auto;
 }
 
-.news-item__desc {
-	display: flex;
-	flex-direction: column;
-	max-width: 100%;
-	margin-left: 20px;
-}
-
-.news-item__date {
-	font-size: 14px;
-	color: #989898;
-	font-weight: lighter;
-	padding-bottom: 6px;
-}
-
-.news-item__name {
+.intro__text {
+	font-size: 12px;
 	font-weight: bold;
-	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	color: #4b73b5;
+	vertical-align: middle;
+	text-align: center;
+	margin-right: 3px;
 }
 
-.news-item__text {
-	font-size: 18px;
-	/* line-height: 1.7; */
+.intro__icon {
+	width: 15px;
+	height: 15px;
+	background-image: url(../../img/icon/airplane.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+
+.intro__btn:hover {
+	background-color: #4b73b5;
+}
+
+.intro__btn:hover .intro__text {
+	color: #ffffff;
+}
+
+.intro__btn:hover .intro__icon {
+	background-image: url(../../img/icon/airplane-whitehover.png);
 }

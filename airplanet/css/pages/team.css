@@ -63,6 +63,8 @@
 }
 
 .team-item__filter:hover {
+    transition: all 0.5s;
+	-webkit-transition: all 0.5s;
     opacity: 0;
 }
 
@@ -124,6 +126,8 @@
 }
 .partners__logo:hover {
     filter: grayscale(0);
+    transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 /* .logo__filter-bmp {
     background: url(../../img/team/bmp_company-hover.png) center no-repeat;

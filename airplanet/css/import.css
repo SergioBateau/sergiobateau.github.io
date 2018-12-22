@@ -11,8 +11,8 @@
 @import "components/breadcrumbs.css";
 
 /* Страницы */
-@import "pages/intro.css";
 @import "pages/index.css";
+@import "pages/main.css";
 @import "pages/reviews.css";
 @import "pages/team.css";
 

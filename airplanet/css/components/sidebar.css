@@ -14,6 +14,8 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: bold;
+    transition: all 1s;
+    -webkit-transition: all 1s;
 }
 .menu__link:hover {
     color: black;
@@ -25,9 +27,11 @@
     width: 30px;
     height: 20px;
     background: center center no-repeat;
+    transition: all 1s;
+    -webkit-transition: all 1s;
 }
 .menu__link--airplane:before {
-    background-image: url(../../img/icon/airplane.png)
+    background-image: url(../../img/icon/airplane2.png)
 }
 .menu__link--airplane:hover:before {
     background-image: url(../../img/icon/airplane-hover.png)

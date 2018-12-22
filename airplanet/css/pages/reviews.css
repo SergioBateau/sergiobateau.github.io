@@ -239,20 +239,24 @@ input[type="radio"]:checked + .form__trigger-title {
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #ffffff;
-    letter-spacing: 1.8px;
+	letter-spacing: 1.8px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	
 }
 
 .form__send-name:hover {
 	background-color: #ffffff;
 	outline: none;
-}
-
-.form__send-name:hover {
 	color: #4b73b5;
 }
 
+
+
 .form__send-name:hover .form__send-icon {
 	background-image: url(../../img/icon/airplane.png);
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 
@@ -265,6 +269,6 @@ input[type="radio"]:checked + .form__trigger-title {
 	background-position: center center;
 	background-repeat: no-repeat;
 	display: inline-block;
-}
+	
 
 
