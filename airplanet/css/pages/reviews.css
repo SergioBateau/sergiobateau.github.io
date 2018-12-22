@@ -53,21 +53,23 @@
 }
 /* Поддержка */
 .support {
-    background: url(../../img/reviews/pattern.png) #4bb56b;
-    
-    width: 100%;
-    
-    margin-bottom: 60px;
+    background: url(../../img/reviews/pattern.png) #4b73b5;
+	display: block;
+	background-size: contain;
+    max-width: 100%;
+    margin-right: 25px;
+    margin-bottom: 20px;
 }
 .support__text {
    font-size: 18px;
     color: #fff;
     font-weight: lighter;
-    width: 622px;
+    width: 90%;
     margin: 0 auto;
 	line-height: 1.8;
     padding-top: 48px;
-    padding-bottom: 46px;
+	padding-bottom: 46px;
+	text-align: center;
 }
 .support__site {
     color: #fff;
