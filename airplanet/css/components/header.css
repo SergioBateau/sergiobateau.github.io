@@ -16,6 +16,7 @@
     align-items: flex-end;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 /* .header__left,
 .header__right {
@@ -50,15 +51,17 @@
     
   }
   .schedule__wrapper {
-    
+    position: absolute;
+    right: 0px;
     overflow: hidden;
     height: 0;
     width: 163px;
-    border: none;
+
     border-radius: 2px;
     transition: height 0.5s;
     font-size: 14px;
     cursor: pointer;
+    
     
   }
   .schedule__block {
@@ -69,6 +72,7 @@
     background-color: #fff;
     padding: 15px 15px;
     text-align: left;
+    
 
   }
   .schedule__block:before {
