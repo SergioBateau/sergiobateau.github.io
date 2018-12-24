@@ -1,5 +1,15 @@
 
 /* Отзывы */
+.reviews__title {
+	font-weight: bold;
+    font-size: 49px;
+    color: #221f1f;
+	margin-top: -18px;
+}
+.reviews__content {
+	margin-left: 5px;
+	margin-bottom: 25px;
+}
 .reviews__list {
 	display: flex;
 	flex-direction: column;
@@ -8,48 +18,53 @@
 .reviews__item {
     border-bottom: 2px solid #f5f5f5;
 	margin-top: 25px;
-    padding-bottom: 28px;
+    padding-bottom: 20px;
     display: flex;
     flex-flow: row nowrap;
+}
+.reviews__item:first-child,
+.reviews__item:nth-child(3) {
+	padding-bottom: 0px;
 }
 .reviews__item:last-child {
     border-bottom: none;
 }
-.reviews__item__avatar {
+.reviews__avatar {
 	display: inline-block;
 	overflow: hidden;
-	max-width: 30%;
+	max-width: 25%;
 	
 }
-.reviews__item__pic {
+.reviews__pic {
 	
     display: block;
 	max-width: 100%;
-	max-height: 180px;
+	max-height: 170px;
 	border-radius: 50%;
 }
-.reviews__item__desc {
+.reviews__desc {
 	display: flex;
 	flex-direction: column;
 	max-width: 75%;
-	margin-left: 20px;
+	margin-left: 25px;
+	letter-spacing: 0px;
 }
-.reviews__item__date {
+.reviews__date {
     font-size: 14px;
 	color: #989898;
 	font-weight: lighter;
 	padding-bottom: 6px;  
 }
-.reviews__item__name {
+.reviews__name {
     font-weight: bold;
 	font-size: 18px;
 	
 }
-.reviews__item__text {
+.reviews__text {
 	font-size: 18px;
 	margin-top: 10px;
 	
-	/* line-height: 1.7; */
+	line-height: 1.7;
 }
 /* Поддержка */
 .support {
@@ -82,18 +97,26 @@
 }
 /*Форма  */
 .form {
-    width: 700px;
+    width: 66%;
     /* min-height: 427px; */
-    margin: 0 auto;
-    background: #f5f5f5;
-    margin-bottom: 52px;
+    /* margin: 0 auto; */
+	background: #f5f5f5;
+	margin-top: 33px;
+	margin-bottom: 52px;
+	margin-left: 298px;
+}
+.form__title {
+	font-weight: bold;
+    font-size: 49px;
+	color: #221f1f;
+	margin-bottom: 8px;
 }
 .form__inner {
-    width: 562px;
-    min-height: 426px;
+    width: 576px;
+    min-height: 425px;
     margin: auto;
-    padding-top: 40px;
-    padding-bottom: 50px;
+    padding-top: 35px;
+    padding-bottom: 20px;
 }
 .form__content {
     display: flex;

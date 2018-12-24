@@ -10,6 +10,9 @@
 }
 
 /* Экипаж */
+.team__content {
+    margin-bottom: 32px;
+}
 .team__list {
     display: flex;
     flex-flow: row wrap;
@@ -22,18 +25,18 @@
     flex: 1;
     flex-flow: column nowrap;
     
-
+    min-height: 420px;
     align-items: center;
     
 }
 
-.team__item__avatar {
+.team__avatar {
     display: block;
     position: relative;
 
 }
 
-.team__item__photo {
+.team__photo {
     display: block;
     border-radius: 50%;
     width: 160px;
@@ -42,7 +45,7 @@
     
 }
 
-.team__item__name {
+.team__name {
     display: block;
     font-weight: bold;
     font-size: 24px;
@@ -54,7 +57,7 @@
     transform: translate(-50%, -50%);
 }
 
-.team__item__filter {
+.team__filter {
     display: block;
     border-radius: 50%;
     width: 160px;
@@ -66,13 +69,13 @@
     position: absolute;
 }
 
-.team__item__filter:hover {
+.team__filter:hover {
     transition: all 0.5s;
 	-webkit-transition: all 0.5s;
     opacity: 0;
 }
 
-.team__item__desc {
+.team__desc {
     display: flex;
     width: 270px;
     flex-direction: column;
@@ -80,24 +83,27 @@
     margin-top: 15px;
 }
 
-.team__item__fullname {
+.team__fullname {
     font-weight: bold;
     font-size: 18px;
 }
 
-.team__item__post {
+.team__post {
     color: #87a2ce;
     font-weight: bold;
 }
 
-.team__item__about {
-    margin-top: 10px;
+.team__about {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 /* Партнеры */
 .partners {
-    margin-right: 25px;
-}
+    margin-bottom: 48px;
+    }
+
 .partners__list {
     display: flex;
     flex-wrap: wrap;
@@ -123,6 +129,9 @@
 }
 .partners__item:first-child {
     
+    margin-bottom: 0px;
+}
+.partners__item:last-child {
     margin-bottom: 20px;
 }
 .partners__logo {
