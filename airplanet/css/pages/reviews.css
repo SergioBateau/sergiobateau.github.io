@@ -210,21 +210,24 @@ input[type="radio"]  {
 	left: 4px;
 	content: '';
 	position: absolute;
-	display: none;
-	transition: 10s;
-	-webkit-transition: 10s;
+	/* display: none; */
+	opacity: 0;
+	
 }
 input[type="radio"]:checked + .form__trigger-title:after {
-	display: block;
-	transition: 10s;
+	/* display: block; */
+	opacity: 1;
+	transition: all 1s;
+    -webkit-transition: all 1s;
 }
 input[type="radio"]:checked + .form__trigger-title:before {
 	border: 1px solid #4b73b5;
-	
+	transition: all 1s;
+    -webkit-transition: all 1s;
 }
 input[type="radio"]:checked + .form__trigger-title {
 	color: #4b73b5;
-
+	
 }
 
 /* Кнопка отправить */
