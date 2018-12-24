@@ -1,48 +1,48 @@
+.page {
+    margin-bottom: 20px;
+}
 .title {
     font-weight: bold;
     font-size: 49px;
     color: #221f1f;
-    margin-top: 12px;
+    
     margin-bottom: 30px;
 }
-/* .title__h3 .title__partners {
-    margin-bottom: 20px;;
-} */
+
 /* Экипаж */
-.team-list {
+.team__list {
     display: flex;
     flex-flow: row wrap;
     width: 100%;
-    margin-bottom: 20px;
+    
 }
 
-.team-item {
+.team__item {
     display: flex;
     flex: 1;
     flex-flow: column nowrap;
-    /* width: 273px; */
+    
 
     align-items: center;
-    /* padding-bottom: 37px; */
+    
 }
 
-.team-item__avatar {
+.team__item__avatar {
     display: block;
     position: relative;
 
 }
 
-.team-item__photo {
+.team__item__photo {
     display: block;
     border-radius: 50%;
     width: 160px;
     height: 160px;
     z-index: 5;
-    /* opacity: 0.6;
-    filter: brightness(70%); */
+    
 }
 
-.team-item__name {
+.team__item__name {
     display: block;
     font-weight: bold;
     font-size: 24px;
@@ -54,7 +54,7 @@
     transform: translate(-50%, -50%);
 }
 
-.team-item__filter {
+.team__item__filter {
     display: block;
     border-radius: 50%;
     width: 160px;
@@ -66,13 +66,13 @@
     position: absolute;
 }
 
-.team-item__filter:hover {
+.team__item__filter:hover {
     transition: all 0.5s;
 	-webkit-transition: all 0.5s;
     opacity: 0;
 }
 
-.team-item__desc {
+.team__item__desc {
     display: flex;
     width: 270px;
     flex-direction: column;
@@ -80,17 +80,17 @@
     margin-top: 15px;
 }
 
-.team-item__fullname {
+.team__item__fullname {
     font-weight: bold;
     font-size: 18px;
 }
 
-.team-item__post {
+.team__item__post {
     color: #87a2ce;
     font-weight: bold;
 }
 
-.team-item__about {
+.team__item__about {
     margin-top: 10px;
 }
 
@@ -135,99 +135,3 @@
     transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 }
-/* .logo__filter-bmp {
-    background: url(../../img/team/bmp_company-hover.png) center no-repeat;
-    position: absolute;
-    min-height: 70px;
-    margin-top: -56px;
-    width: 270px;
-    opacity: 0;
-    z-index: 10;
-} */
-
-/* .logo__filter-bmp:hover {
-    opacity: 1;
-} */
-
-/* .logo__filter-tetra {
-
-    background: url(../../img/team/tetra_install-hover.png) center no-repeat;
-    position: absolute;
-    min-height: 70px;
-    margin-top: -73px;
-    left: -1px;
-    width: 270px;
-    opacity: 0;
-    z-index: 10;
-
-} */
-
-/* .logo__filter-tetra:hover {
-    opacity: 1;
-} */
-
-/* .logo__filter-sibair {
-
-    background: url(../../img/team/Sibir-hover.png) center no-repeat;
-    position: absolute;
-    min-height: 70px;
-    margin-top: -73px;
-    left: -1px;
-    width: 270px;
-    opacity: 0;
-    z-index: 10;
-
-} */
-
-/* .logo__filter-sibair:hover {
-    opacity: 1;
-} */
-
-/* .logo__filter-oneair {
-
-    background: url(../../img/team/One_Air-hover.png) center no-repeat;
-    position: absolute;
-    min-height: 70px;
-    margin-top: -73px;
-    left: -1px;
-    width: 270px;
-    opacity: 0;
-    z-index: 10;
-
-} */
-
-/* .logo__filter-oneair:hover {
-    opacity: 1;
-} */
-
-/* .logo__filter-bingair {
-
-    background: url(../../img/team/Bing_Air-hover.png) center no-repeat;
-    position: absolute;
-    min-height: 70px;
-    margin-top: -73px;
-    width: 270px;
-    opacity: 0;
-    z-index: 10;
-
-} */
-
-/* .logo__filter-bingair:hover {
-    opacity: 1;
-} */
-
-/* .logo__filter-ural {
-
-    background: url(../../img/team/Ural-hover.png) center no-repeat;
-    position: absolute;
-    min-height: 70px;
-    margin-top: -73px;
-    width: 270px;
-    opacity: 0;
-    z-index: 10;
-
-} */
-
-/* .logo__filter-ural:hover {
-    opacity: 1;
-} */

@@ -16,7 +16,7 @@
 }
 
 /* Тарифы */
-.rates {
+.rates__content {
 	margin-bottom: 10px;
 }
 
@@ -31,16 +31,14 @@
 	text-transform: uppercase;
 }
 
-.rates-list {
+.rates__list {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
 }
 
-.rates-item {
-	/* flex: 1 0 250px; */
-	/* display: inline-block; */
-	/* width: 250px; */
+.rates__item {
+	
 	flex: 1;
 	max-width: 100%;
 	border: 1px solid #e8e9ed;
@@ -48,23 +46,12 @@
 	box-sizing: border-box;
 	padding-right: 39px;
 	padding-left: 36px;
-	margin-right: 25px;
+	
 }
 
-/* .rates-item:first-child {
-	border: none;
-	box-sizing: border-box;
-	margin-right: 16px;
-}
 
-.rates-item:last-child {
-	border: none;
-	box-sizing: border-box;
-	margin-left: 18px;
 
-} */
-
-.rates-item__link {
+.rates__item__link {
 	margin: 0 auto;
 	width: 68px;
 	height: 68px;
@@ -79,7 +66,7 @@
 	border-radius: 50%;
 }
 
-.rates-item__img {
+.rates__item__img {
 	display: block;
 	position: absolute;
 	top: 50%;
@@ -87,7 +74,7 @@
 	transform: translate(-50%, -50%);
 }
 
-.rates-description__name {
+.rates__description__name {
 	font-weight: bold;
 	font-size: 11px;
 	text-align: center;
@@ -96,29 +83,29 @@
 	letter-spacing: 2px;
 }
 
-.rates-description__text,
-.rates-description__list {
+.rates__description__text,
+.rates__description__list {
 	font-size: 18px;
 
 }
 
-.rates-description__text {
+.rates__description__text {
 	line-height: 1.7;
 	text-align: center;
 }
 
-.rates-description__list {
+.rates__description__list {
 	list-style-type: disc;
 	line-height: 2;
 	margin-bottom: 3px;
 	padding-left: 18px;
 }
 
-.rates-description__item {
+.rates__description__item {
 	padding-left: 10px;
 }
 
-.rates-description__price {
+.rates__description__price {
 	font-weight: bold;
 	font-size: 54px;
 	text-align: center;
@@ -126,39 +113,40 @@
 	font-family: roboto regular;
 }
 
-.rates-description__dollar {
+.rates__description__dollar {
 	font-size: 30px;
 	font-family: roboto regular;
 	margin-right: 5px;
 }
 
 /* Новости */
-.news-list {
-	display: flex;
-	flex-direction: row;
-	/* padding-top: 12px; */
+.news__content {
+	margin-bottom: 28px;
 }
 
-.news-item {
-	/* border-bottom: 2px solid #f5f5f5; */
+.news__list {
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.news__item {
+	/
 	flex: 1;
 	width: 33.3%;
 	margin-top: 25px;
-	padding-bottom: 28px;
+	
 	display: flex;
 	flex-flow: column;
 }
 
-/* .news-item:last-child {
-	border-bottom: none;
-} */
-.news-item__avatar {
+.news__item__avatar {
 	display: inline-block;
 	overflow: hidden;
 	max-width: 100%;
 	
 }
-.news-item__pic {
+.news__item__pic {
 	display: block;
 	max-width: 100%;
 	max-height: 160px;
@@ -166,7 +154,7 @@
 	margin: 0 auto;
 }
 
-.news-item__desc {
+.news__item__desc {
 	margin-top: 20px;
 	display: flex;
 	flex-direction: column;
@@ -175,19 +163,19 @@
 	margin-left: 5px;
 }
 
-.news-item__date {
+.news__item__date {
 	font-size: 14px;
 	color: #989898;
 	font-weight: lighter;
 	padding-bottom: 6px;
 }
 
-.news-item__name {
+.news__item__name {
 	font-weight: bold;
 	font-size: 18px;
 }
 
-.news-item__text {
+.news__item__text {
 	font-size: 14px;
 	line-height: 1.7;
 }

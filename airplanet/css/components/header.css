@@ -18,18 +18,9 @@
     flex-direction: column;
     position: relative;
 }
-/* .header__left,
-.header__right {
-    float: left;
-    width: 50%;
-    
-}
 
-.header__right {
-    text-align: right;
-} */
 .contacts {
-    /* display: inline-block; */
+    
     line-height: 1.05;
   
 }

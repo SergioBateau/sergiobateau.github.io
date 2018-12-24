@@ -1,51 +1,51 @@
 
 /* Отзывы */
-.reviews-list {
+.reviews__list {
 	display: flex;
 	flex-direction: column;
 	
 }
-.reviews-item {
+.reviews__item {
     border-bottom: 2px solid #f5f5f5;
 	margin-top: 25px;
     padding-bottom: 28px;
     display: flex;
     flex-flow: row nowrap;
 }
-.reviews-item:last-child {
+.reviews__item:last-child {
     border-bottom: none;
 }
-.reviews-item__avatar {
+.reviews__item__avatar {
 	display: inline-block;
 	overflow: hidden;
 	max-width: 30%;
 	
 }
-.reviews-item__pic {
+.reviews__item__pic {
 	
     display: block;
 	max-width: 100%;
 	max-height: 180px;
 	border-radius: 50%;
 }
-.reviews-item__desc {
+.reviews__item__desc {
 	display: flex;
 	flex-direction: column;
 	max-width: 75%;
 	margin-left: 20px;
 }
-.reviews-item__date {
+.reviews__item__date {
     font-size: 14px;
 	color: #989898;
 	font-weight: lighter;
 	padding-bottom: 6px;  
 }
-.reviews-item__name {
+.reviews__item__name {
     font-weight: bold;
 	font-size: 18px;
 	
 }
-.reviews-item__text {
+.reviews__item__text {
 	font-size: 18px;
 	margin-top: 10px;
 	
@@ -57,7 +57,7 @@
 	display: block;
 	background-size: contain;
     max-width: 100%;
-    margin-right: 17px;
+    
     margin-bottom: 20px;
 }
 .support__text {
@@ -83,7 +83,7 @@
 /*Форма  */
 .form {
     width: 700px;
-    height: 427px;
+    /* min-height: 427px; */
     margin: 0 auto;
     background: #f5f5f5;
     margin-bottom: 52px;
@@ -211,15 +211,20 @@ input[type="radio"]  {
 	content: '';
 	position: absolute;
 	display: none;
+	transition: 10s;
+	-webkit-transition: 10s;
 }
 input[type="radio"]:checked + .form__trigger-title:after {
 	display: block;
+	transition: 10s;
 }
 input[type="radio"]:checked + .form__trigger-title:before {
 	border: 1px solid #4b73b5;
+	
 }
 input[type="radio"]:checked + .form__trigger-title {
-    color: #4b73b5;
+	color: #4b73b5;
+
 }
 
 /* Кнопка отправить */
